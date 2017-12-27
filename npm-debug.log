@@ -1,0 +1,250 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\skyler.hamilton\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'fs-extra',
+1 verbose cli   '--save' ]
+2 info using npm@2.14.7
+3 info using node@v8.9.3
+4 verbose install initial load of C:\Projects\personal\exif-editor\package.json
+5 warn package.json exif-editor@0.0.0 No repository field.
+6 warn package.json exif-editor@0.0.0 No README data
+7 verbose readDependencies loading dependencies from C:\Projects\personal\exif-editor\package.json
+8 silly cache add args [ 'fs-extra', null ]
+9 verbose cache add spec fs-extra
+10 silly cache add parsed spec Result {
+10 silly cache add   raw: 'fs-extra',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'fs-extra',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: '*',
+10 silly cache add   type: 'range' }
+11 silly addNamed fs-extra@*
+12 verbose addNamed "*" is a valid semver range for fs-extra
+13 silly addNameRange { name: 'fs-extra', range: '*', hasData: false }
+14 silly mapToRegistry name fs-extra
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry uri https://registry.npmjs.org/fs-extra
+18 verbose addNameRange registry:https://registry.npmjs.org/fs-extra not in flight; fetching
+19 verbose request uri https://registry.npmjs.org/fs-extra
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 03:00:39
+22 verbose request id 4fab014268806d6a
+23 verbose etag "5a3df0a1-2252b"
+24 verbose lastModified Sat, 23 Dec 2017 5:58:57 GMT
+25 http request GET https://registry.npmjs.org/fs-extra
+26 http 304 https://registry.npmjs.org/fs-extra
+27 verbose headers { date: 'Sun, 24 Dec 2017 03:00:38 GMT',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   'cache-control': 'max-age=300',
+27 verbose headers   etag: '"5a3df0a1-2252b"',
+27 verbose headers   age: '3035',
+27 verbose headers   connection: 'keep-alive',
+27 verbose headers   'x-served-by': 'cache-bur17531-BUR',
+27 verbose headers   'x-cache': 'HIT',
+27 verbose headers   'x-cache-hits': '2',
+27 verbose headers   'x-timer': 'S1514084438.351378,VS0,VE0',
+27 verbose headers   vary: 'Accept-Encoding, Accept' }
+28 silly get cb [ 304,
+28 silly get   { date: 'Sun, 24 Dec 2017 03:00:38 GMT',
+28 silly get     via: '1.1 varnish',
+28 silly get     'cache-control': 'max-age=300',
+28 silly get     etag: '"5a3df0a1-2252b"',
+28 silly get     age: '3035',
+28 silly get     connection: 'keep-alive',
+28 silly get     'x-served-by': 'cache-bur17531-BUR',
+28 silly get     'x-cache': 'HIT',
+28 silly get     'x-cache-hits': '2',
+28 silly get     'x-timer': 'S1514084438.351378,VS0,VE0',
+28 silly get     vary: 'Accept-Encoding, Accept' } ]
+29 verbose etag https://registry.npmjs.org/fs-extra from cache
+30 verbose get saving fs-extra to C:\Users\skyler.hamilton\AppData\Roaming\npm-cache\registry.npmjs.org\fs-extra\.cache.json
+31 silly addNameRange number 2 { name: 'fs-extra', range: '*', hasData: true }
+32 silly addNameRange versions [ 'fs-extra',
+32 silly addNameRange   [ '0.0.1',
+32 silly addNameRange     '0.0.11',
+32 silly addNameRange     '0.0.3',
+32 silly addNameRange     '0.0.4',
+32 silly addNameRange     '0.1.0',
+32 silly addNameRange     '0.1.1',
+32 silly addNameRange     '0.1.2',
+32 silly addNameRange     '0.1.3',
+32 silly addNameRange     '0.2.0',
+32 silly addNameRange     '0.2.1',
+32 silly addNameRange     '0.3.0',
+32 silly addNameRange     '0.3.1',
+32 silly addNameRange     '0.3.2',
+32 silly addNameRange     '0.4.0',
+32 silly addNameRange     '0.5.0',
+32 silly addNameRange     '0.6.0',
+32 silly addNameRange     '0.6.1',
+32 silly addNameRange     '0.6.2',
+32 silly addNameRange     '0.6.3',
+32 silly addNameRange     '0.6.4',
+32 silly addNameRange     '0.7.0',
+32 silly addNameRange     '0.7.1',
+32 silly addNameRange     '0.8.0',
+32 silly addNameRange     '0.8.1',
+32 silly addNameRange     '0.9.0',
+32 silly addNameRange     '0.9.1',
+32 silly addNameRange     '0.10.0',
+32 silly addNameRange     '0.11.0',
+32 silly addNameRange     '0.11.1',
+32 silly addNameRange     '0.12.0',
+32 silly addNameRange     '0.13.0',
+32 silly addNameRange     '0.14.0',
+32 silly addNameRange     '0.15.0',
+32 silly addNameRange     '0.16.0',
+32 silly addNameRange     '0.16.1',
+32 silly addNameRange     '0.16.2',
+32 silly addNameRange     '0.16.3',
+32 silly addNameRange     '0.16.4',
+32 silly addNameRange     '0.16.5',
+32 silly addNameRange     '0.17.0',
+32 silly addNameRange     '0.18.0',
+32 silly addNameRange     '0.18.1',
+32 silly addNameRange     '0.18.2',
+32 silly addNameRange     '0.18.3',
+32 silly addNameRange     '0.18.4',
+32 silly addNameRange     '0.19.0',
+32 silly addNameRange     '0.20.0',
+32 silly addNameRange     '0.20.1',
+32 silly addNameRange     '0.21.0',
+32 silly addNameRange     '0.22.0',
+32 silly addNameRange     '0.22.1',
+32 silly addNameRange     '0.23.0',
+32 silly addNameRange     '0.23.1',
+32 silly addNameRange     '0.24.0',
+32 silly addNameRange     '0.25.0',
+32 silly addNameRange     '0.26.0',
+32 silly addNameRange     '0.26.1',
+32 silly addNameRange     '0.26.2',
+32 silly addNameRange     '0.26.3',
+32 silly addNameRange     '0.26.4',
+32 silly addNameRange     '0.26.5',
+32 silly addNameRange     '0.26.6',
+32 silly addNameRange     '0.26.7',
+32 silly addNameRange     '0.27.0',
+32 silly addNameRange     '0.28.0',
+32 silly addNameRange     '0.29.0',
+32 silly addNameRange     '0.30.0',
+32 silly addNameRange     '1.0.0',
+32 silly addNameRange     '2.0.0',
+32 silly addNameRange     '2.1.0',
+32 silly addNameRange     '2.1.1',
+32 silly addNameRange     '2.1.2',
+32 silly addNameRange     '3.0.0',
+32 silly addNameRange     '3.0.1',
+32 silly addNameRange     '4.0.0',
+32 silly addNameRange     '4.0.1',
+32 silly addNameRange     '4.0.2',
+32 silly addNameRange     '4.0.3',
+32 silly addNameRange     '5.0.0' ] ]
+33 silly addNamed fs-extra@5.0.0
+34 verbose addNamed "5.0.0" is a plain semver version for fs-extra
+35 silly cache afterAdd fs-extra@5.0.0
+36 verbose afterAdd C:\Users\skyler.hamilton\AppData\Roaming\npm-cache\fs-extra\5.0.0\package\package.json not in flight; writing
+37 verbose afterAdd C:\Users\skyler.hamilton\AppData\Roaming\npm-cache\fs-extra\5.0.0\package\package.json written
+38 silly install resolved [ { name: 'fs-extra',
+38 silly install resolved     version: '5.0.0',
+38 silly install resolved     description: 'fs-extra contains methods that aren\'t included in the vanilla Node.js fs package. Such as mkdir -p, cp -r, and rm -rf.',
+38 silly install resolved     homepage: 'https://github.com/jprichardson/node-fs-extra',
+38 silly install resolved     repository:
+38 silly install resolved      { type: 'git',
+38 silly install resolved        url: 'git+https://github.com/jprichardson/node-fs-extra.git' },
+38 silly install resolved     keywords:
+38 silly install resolved      [ 'fs',
+38 silly install resolved        'file',
+38 silly install resolved        'file system',
+38 silly install resolved        'copy',
+38 silly install resolved        'directory',
+38 silly install resolved        'extra',
+38 silly install resolved        'mkdirp',
+38 silly install resolved        'mkdir',
+38 silly install resolved        'mkdirs',
+38 silly install resolved        'recursive',
+38 silly install resolved        'json',
+38 silly install resolved        'read',
+38 silly install resolved        'write',
+38 silly install resolved        'extra',
+38 silly install resolved        'delete',
+38 silly install resolved        'remove',
+38 silly install resolved        'touch',
+38 silly install resolved        'create',
+38 silly install resolved        'text',
+38 silly install resolved        'output',
+38 silly install resolved        'move' ],
+38 silly install resolved     author: { name: 'JP Richardson', email: 'jprichardson@gmail.com' },
+38 silly install resolved     license: 'MIT',
+38 silly install resolved     dependencies:
+38 silly install resolved      { 'graceful-fs': '^4.1.2',
+38 silly install resolved        jsonfile: '^4.0.0',
+38 silly install resolved        universalify: '^0.1.0' },
+38 silly install resolved     devDependencies:
+38 silly install resolved      { coveralls: '^2.11.2',
+38 silly install resolved        istanbul: '^0.4.5',
+38 silly install resolved        klaw: '^1.0.0',
+38 silly install resolved        'klaw-sync': '^1.1.2',
+38 silly install resolved        minimist: '^1.1.1',
+38 silly install resolved        mocha: '^3.1.2',
+38 silly install resolved        proxyquire: '^1.7.10',
+38 silly install resolved        'read-dir-files': '^0.1.1',
+38 silly install resolved        rimraf: '^2.2.8',
+38 silly install resolved        'secure-random': '^1.1.1',
+38 silly install resolved        semver: '^5.3.0',
+38 silly install resolved        standard: '^10.0.2',
+38 silly install resolved        'standard-markdown': '^4.0.1' },
+38 silly install resolved     main: './lib/index.js',
+38 silly install resolved     scripts:
+38 silly install resolved      { coverage: 'istanbul cover -i \'lib/**\' -x \'**/__tests__/**\' test.js',
+38 silly install resolved        coveralls: 'coveralls < coverage/lcov.info',
+38 silly install resolved        lint: 'standard && standard-markdown',
+38 silly install resolved        'test-find': 'find ./lib/**/__tests__ -name *.test.js | xargs mocha',
+38 silly install resolved        test: 'npm run lint && npm run unit',
+38 silly install resolved        unit: 'node test.js' },
+38 silly install resolved     gitHead: '80494ee95ee74ce3db87ef1c60f9c5787f4f074d',
+38 silly install resolved     bugs: { url: 'https://github.com/jprichardson/node-fs-extra/issues' },
+38 silly install resolved     _id: 'fs-extra@5.0.0',
+38 silly install resolved     _npmVersion: '5.5.1',
+38 silly install resolved     _nodeVersion: '8.9.1',
+38 silly install resolved     _npmUser: { name: 'ryanzim', email: 'opensrc@ryanzim.com' },
+38 silly install resolved     dist:
+38 silly install resolved      { integrity: 'sha512-66Pm4RYbjzdyeuqudYqhFiNBbCIuI9kgRqLPSHIlXHidW8NIQtVdkM1yeZ4lXwuhbTETv3EUGMNHAAw6hiundQ==',
+38 silly install resolved        shasum: '414d0110cdd06705734d055652c5411260c31abd',
+38 silly install resolved        tarball: 'https://registry.npmjs.org/fs-extra/-/fs-extra-5.0.0.tgz' },
+38 silly install resolved     maintainers: [ [Object], [Object] ],
+38 silly install resolved     _npmOperationalInternal:
+38 silly install resolved      { host: 's3://npm-registry-packages',
+38 silly install resolved        tmp: 'tmp/fs-extra-5.0.0.tgz_1513013406516_0.9489942248910666' },
+38 silly install resolved     directories: {},
+38 silly install resolved     _shasum: '414d0110cdd06705734d055652c5411260c31abd',
+38 silly install resolved     _resolved: 'https://registry.npmjs.org/fs-extra/-/fs-extra-5.0.0.tgz',
+38 silly install resolved     _from: 'fs-extra@*',
+38 silly install resolved     readme: 'ERROR: No README data found!' } ]
+39 info install fs-extra@5.0.0 into C:\Projects\personal\exif-editor
+40 info installOne fs-extra@5.0.0
+41 verbose installOne of fs-extra to C:\Projects\personal\exif-editor not in flight; installing
+42 verbose lock using C:\Users\skyler.hamilton\AppData\Roaming\npm-cache\_locks\fs-extra-8686f884aef3e677.lock for C:\Projects\personal\exif-editor\node_modules\fs-extra
+43 silly install write writing fs-extra 5.0.0 to C:\Projects\personal\exif-editor\node_modules\fs-extra
+44 verbose stack Error: Cannot find module 'internal/util/types'
+44 verbose stack     at Function.Module._resolveFilename (module.js:536:15)
+44 verbose stack     at Function.Module._load (module.js:466:25)
+44 verbose stack     at Module.require (module.js:579:17)
+44 verbose stack     at require (internal/module.js:11:18)
+44 verbose stack     at evalmachine.<anonymous>:31:26
+44 verbose stack     at Object.<anonymous> (C:\Users\skyler.hamilton\AppData\Roaming\npm\node_modules\npm\node_modules\cmd-shim\node_modules\graceful-fs\fs.js:11:1)
+44 verbose stack     at Module._compile (module.js:635:30)
+44 verbose stack     at Object.Module._extensions..js (module.js:646:10)
+44 verbose stack     at Module.load (module.js:554:32)
+44 verbose stack     at tryModuleLoad (module.js:497:12)
+45 verbose cwd C:\Projects\personal\exif-editor
+46 error Windows_NT 10.0.14393
+47 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\skyler.hamilton\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "fs-extra" "--save"
+48 error node v8.9.3
+49 error npm  v2.14.7
+50 error code MODULE_NOT_FOUND
+51 error Cannot find module 'internal/util/types'
+52 error If you need help, you may report this error at:
+52 error     <https://github.com/npm/npm/issues>
+53 verbose exit [ 1, true ]
